@@ -46,7 +46,7 @@ class _CategoriesState extends State<Categories> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
+            icon: const Icon(Icons.arrow_back,color: Colors.black,),
             onPressed: () {
               Navigator.pop(context);
             },

@@ -116,9 +116,9 @@ class _ImageViewState extends State<ImageView> {
     );
   }
     _save() async {
-   if(Platform.isIOS){
+  // if(Platform.isIOS){
      await _getStoragePermission();
-   }
+ //  }
     var response = await Dio().get(widget.imgUrl,
         options: Options(responseType: ResponseType.bytes));
     final result =
@@ -132,12 +132,14 @@ class _ImageViewState extends State<ImageView> {
         // setState(() {
         //   permissionGranted = true;
         // });
-      } else if (await Permission.storage.request().isPermanentlyDenied) {
+      } else {
+        if (await Permission.storage.request().isPermanentlyDenied) {
         await openAppSettings();
-      } else if (await Permission.storage.request().isDenied) {
+      } else if (await Permission.photos.request().isDenied) {
         // setState(() {
         //   permissionGranted = false;
         // });
+      }
       }
     }
 

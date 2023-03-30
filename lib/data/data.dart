@@ -5,8 +5,8 @@ import '../view_model/categories_model.dart';
 String apiKEY = "563492ad6f91700001000001e5db9b82a55f459f8c6b02dfd7e154f8";
 
 List<CategoriesModel> getCategories() {
-  List<CategoriesModel> categories = [];
-  CategoriesModel categoriesModel = CategoriesModel();
+List<CategoriesModel> categories = [];
+CategoriesModel categoriesModel = CategoriesModel();
 
   //
   categoriesModel.imgUrl =

@@ -1,16 +1,11 @@
-# wallpapers_hub
+# WallpaperHub
 
-A new Flutter project.
+A wallpaper app that displays beautiful wallapers and allows user to save them into their phone gallery.
 
-## Getting Started
+## App Screenshots
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![WhatsApp Image 2023-07-10 at 2 58 21 PM](https://github.com/mercyjae/Wallpaper_App/assets/83911888/a85af954-43c6-4aa4-bf4b-f991b1547a0f)
+![WhatsApp Image 2023-07-10 at 2 58 21 PM (1)](https://github.com/mercyjae/Wallpaper_App/assets/83911888/b49663a8-39aa-488a-8de8-d1d11bb854a1)
+![WhatsApp Image 2023-07-10 at 2 58 22 PM](https://github.com/mercyjae/Wallpaper_App/assets/83911888/647f24d2-6b7f-44dd-9838-43bb1ef5185f)
+![Uploading WhatsApp Image 2023-07-10 at 2.58.23 PM.jpeg…]()
